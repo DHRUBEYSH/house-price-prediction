@@ -3,10 +3,10 @@ import streamlit as st
 import pandas as pd
 
 # Load
-model = joblib.load("models/model.pkl")
-location_encoder = joblib.load("models/location_encoder.pkl")
-city_encoder = joblib.load("models/city_encoder.pkl")
-features = joblib.load("models/features.pkl")
+model = joblib.load("Models/model.pkl")
+location_encoder = joblib.load("Models/location_encoder.pkl")
+city_encoder = joblib.load("Models/city_encoder.pkl")
+features = joblib.load("Models/features.pkl")
 
 st.title("🏠 House Price Prediction")
 
